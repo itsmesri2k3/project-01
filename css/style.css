@@ -1,4 +1,16 @@
-
+::-webkit-scrollbar {
+width: 5px; 
+}
+::-webkit-scrollbar-track {
+background: white; 
+}
+::-webkit-scrollbar-thumb {
+background: #679d06;
+border-radius: 2px;
+}
+::-webkit-scrollbar-thumb:hover {
+background: #679d06;
+}
 /*** Spinner Start ***/
 #spinner {
     opacity: 0;
@@ -83,7 +95,7 @@
 
 .topbar {
     padding: 20px;
-    border-radius: 230px 100px;
+    border-radius: 0 0 20px 20px;
 }
 
 .topbar .top-info {
